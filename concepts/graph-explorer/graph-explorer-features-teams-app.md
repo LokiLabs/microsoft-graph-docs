@@ -35,4 +35,4 @@ The response data shows up with:
 ![Screenshot of a sample request in Graph Explorer](./images/making-a-get-request-teams-app.png)
 
 ## Granted resource-specific consent
-The list of granted resource-specific consent allows you to understand what permissions have been granted to the app. This is an easy to reference list when unsure about if the app has sufficient permissions to execute on a given request. app has access to and how they map to the required permissions for a given request you are trying to make.
+The list of granted resource-specific consent allows you to understand what permissions have been granted to the app, and allows you to cross-reference with the permissions required for a request. To learn more about resource specific consent, view the [documentation](https://aka.ms/teams-rsc).
