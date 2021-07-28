@@ -1,6 +1,6 @@
 ---
 
-title: "Working with Graph Explorer"
+title: "Working with Graph Explorer Web Application"
 description: "Find out how to use some of the important features in Graph Explorer."
 localization_priority: Normal
 author: bettirosengugi
@@ -10,9 +10,17 @@ author: bettirosengugi
 
 [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer/) is a developer tool that lets you conveniently make Microsoft Graph REST API requests and view corresponding responses. This article describes how to use some of the important features in Graph Explorer.
 
-## Consent to permissions
+[Graph Explorer Sample Teams](TODO) exists alongside the web application to mock Teams app permissions by showing resource-specific consent and is used to support "Teams application" mode in the web application. 
 
-The user or administrator must grant Graph Explorer the correct permissions via a consent process to access data in Microsoft Graph. Consent to permissions in Graph Explorer either via the **Modify permissions** tab or the **Select permissions** option in the settings gear next to your profile when you’re signed in. 
+## Use Graph Explorer as sample Teams application
+
+To use resource-specific consent permissions, you must switch the mode via the **Use Graph Explorer as a Sample Teams application** option in the "More options" selector next to your profile when you’re signed in and download the [Graph Explorer](LINK) Microsoft Teams app.
+
+- Learn more about [Graph Explorer](./graph-explorer-features-teams-app.md) Microsoft Teams app features.
+
+## Consent to delegated permissions
+
+The user or administrator must grant Graph Explorer the correct permissions via a consent process to access data in Microsoft Graph. Consent to permissions in Graph Explorer either via the **Modify permissions** tab or the **Select permissions** option in the "More options" selector next to your profile when you’re signed in. 
 The **Modify permissions** tab lists all permissions you need to run the query in the address bar. 
 
 To consent to permissions:
@@ -24,16 +32,16 @@ To consent to permissions:
 
 ![Screenshot of Graph Explorer with the steps to consent to permissions highlighted](./images/modify-permissions.png)
 
-The **Modify  permissions** feature is currently in preview, and some queries might be missing permissions. If permissions are missing for a query, the **Select permissions** option in the settings gear next to your profile contains the list of all available permissions:
+The **Modify  permissions** feature is currently in preview, and some queries might be missing permissions. If permissions are missing for a query, the **Select permissions** option in the "More options" selector next to your profile contains the list of all available permissions:
 
-1.	Go the settings gear and click the **Select permissions** option. This option contains the list of all available permissions.
+1.	Go the "More options" selector and click the **Select permissions** option. This option contains the list of all available permissions.
 2.	From the list of all the permissions, consent to the ones you want.
 
 ![Screenshot of Graph Explorer with the Select permissions option highlighted](./images/select-permissions.png)
 
 ## Get an access or authentication token
 
-Graph Explorer includes an **Access token** tab that shows your access token when you are signed in. On the **Access token** tab, you can copy the token if you need to use it in your favorite REST client application.
+Graph Explorer includes an **Access token** tab that shows your access token associated with delegated permissions when you are signed in. On the **Access token** tab, you can copy the token if you need to use it in your favorite REST client application.
 
 ![Screenshot of the Access token tab in Graph Explorer with the Copy button highlighted](./images/access-token.png)
 
@@ -73,7 +81,7 @@ The following table lists the sample queries that currently include a Toolkit co
 
 ## Customize the theme in Graph Explorer
 
-Choose the theme for Graph Explorer by selecting the **Change theme** option under the settings gear. Theme options are Light, Dark, and High contrast.
+Choose the theme for Graph Explorer by selecting the **Change theme** option under the "More options" selector. Theme options are Light, Dark, and High contrast.
 
 ![Screenshot of the Change theme option in Graph Explorer with the theme options highlighted](./images/change-theme.png)
 

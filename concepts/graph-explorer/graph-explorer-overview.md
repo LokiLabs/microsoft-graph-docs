@@ -9,14 +9,15 @@ author: bettirosengugi
 
 # Use Graph Explorer to try Microsoft Graph APIs
 
-[Graph Explorer](https://developer.microsoft.com/graph/graph-explorer/) is a developer tool that lets you conveniently make Microsoft Graph REST API requests and view corresponding responses. Use Graph Explorer to try APIs on the default sample tenant to explore capabilities, or sign in to your own tenant and use it as a prototyping tool to fulfill your app scenarios. This tool includes helpful features such as code snippets in C#, Java, JavaScript, and Objective C; Microsoft Graph Toolkit and adaptive cards integration; and more.
+[Graph Explorer](https://developer.microsoft.com/graph/graph-explorer/) is a developer tool that lets you conveniently make Microsoft Graph REST API requests with delegated and resource specific consent permissions and view corresponding responses. Use Graph Explorer to try APIs on the default sample tenant to explore capabilities, or sign in to your own tenant and use it as a prototyping tool to fulfill your app scenarios. This tool includes helpful features such as code snippets in C#, Java, JavaScript, and Objective C; Microsoft Graph Toolkit and adaptive cards integration; and more.
 
 Use Graph Explorer to:
 
 - Make Microsoft Graph API requests (GET, POST, PUT, PATCH and DELETE) and see responses including response code and any headers and bodies.
-- Consent to permissions.
+- Consent to delegated permissions.
+- Use resource-specific consent permissions with the Graph Explorer Sample Teams app.
 - Add a request body and request header to your query.
-- View and copy the access token.
+- View and copy the access token for delegated permissions.
 - View sample queries for different services in Microsoft Graph.
 - View, download, or delete the queries you ran in the last 30 days.
 - View and copy code snippets of each query you run in C#, Java, JavaScript, and Objective C.
@@ -27,7 +28,7 @@ Graph Explorer handles the authentication process for you. Customize the experie
 
 ## Get started
 
-Graph Explorer is a web application hosted on the [Microsoft Graph developer center](https://developer.microsoft.com/en-us/graph/graph-explorer). It's an open source project,  and we welcome your contributions and feedback in the [GitHub repo](https://github.com/microsoftgraph/microsoft-graph-explorer-v4).
+Graph Explorer is a web application hosted on the [Microsoft Graph developer center](https://developer.microsoft.com/en-us/graph/graph-explorer). It's an open source project, and we welcome your contributions and feedback in the [GitHub repository](https://github.com/microsoftgraph/microsoft-graph-explorer-v4).
 
 Graph Explorer includes the following elements:
 
@@ -77,4 +78,4 @@ To view the response in a format other than the default JSON, choose the **Reque
 
 - Visit [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer/).
 - Learn more about [Graph Explorer features](./graph-explorer-features.md).
-- Contribute or provide feedback in the [GitHub repo](https://github.com/microsoftgraph/microsoft-graph-explorer-v4/issues/new/choose).
+- Contribute or provide feedback in the [GitHub repository](https://github.com/microsoftgraph/microsoft-graph-explorer-v4/issues/new/choose).
